@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/login.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Include your dynamic navbar here -->
+    </header>
+    <main>
+        <section class="login-section">
+            <div class="container">
+                <h2 class="section-title">Login</h2>
+                <form id="login-form" class="login-form">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <span class="error" id="username-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <span class="error" id="password-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" style="background-color: hsl(180, 98%, 31%)">
+        <div class="container">
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2024
+                    <a href="https://www.neosofttech.com/" class="copyright-link">Neosoft Tech</a>. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
